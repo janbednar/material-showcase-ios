@@ -1,5 +1,9 @@
 Change Log
 ==========
+Custom version 0.2 *(2018-01-09)*
+-----------------------------
+* add propper margin for labels on both side of screen
+
 Version 0.1.5 *(2017-10-28)*
 ----------------------------
 * Fix bug, crash on iOS 11 when targeting BarButtonItem and custom buttons were not displayed
