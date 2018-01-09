@@ -307,7 +307,7 @@ extension MaterialShowcase {
     
     primaryLabel.frame = CGRect(x: xPosition,
                                 y: yPosition,
-                                width: containerView.frame.width - xPosition,
+                                width: containerView.frame.width - (2 * xPosition),
                                 height: LABEL_DEFAULT_HEIGHT)
     
     addSubview(primaryLabel)
@@ -342,7 +342,7 @@ extension MaterialShowcase {
     
     secondaryLabel.frame = CGRect(x: xPosition,
                                   y: yPosition,
-                                  width: containerView.frame.width - xPosition,
+                                  width: containerView.frame.width - (2 * xPosition),
                                   height: LABEL_DEFAULT_HEIGHT)
     
     addSubview(secondaryLabel)
